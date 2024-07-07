@@ -21,6 +21,8 @@
 	pyenv install --list  #查看可以安装的python 版本
  	pyenv install 3.9.16 -vvv # 安装3.9.16 的python 
   	pyenv virtualenv 3.9.16 test #创建一个 Python 3.9.16 的虚拟环境，并将其命名为 test
-        pyenv activate test # 激活刚刚创建的虚拟环境
+   	pyenv activate test # 激活刚刚创建的虚拟环境
 	pyenv versions #可以使用以下命令来验证虚拟环境是否正确激活
-        pyenv deactivate #退出虚拟环境
+ 	pyenv deactivate #退出虚拟环境
+
+  
